@@ -1,33 +1,27 @@
 # AionMarket
 
-Minimal Windows x64 market widget for **AION2 Steam Global EU Р Р†Р вЂљРІР‚Сњ Ludra, Asmodian**.
+A compact Windows price widget for AION 2 — Ludra, EU, Asmodian.
 
-## Get started
+## Install and start
 
-Download **AionMarket-Setup-1.0.3.0.exe** from [the latest release](https://github.com/SkyPwner/AionMarket-Releases/releases/latest), run it, and choose Install. The app opens a visible connection screen on a new PC. Steam and AION2 are detected automatically. Python and .NET are included. Wireshark/TShark plus Npcap are separate first-connection prerequisites, with official links and checks in the app. The full portable ZIP remains available; the update-only ZIP is for existing installations.
+Download **AionMarket-Setup-1.0.4.0.exe** from [the latest release](https://github.com/SkyPwner/AionMarket-Releases/releases/latest), run it and choose Install. Exit an older AionMarket copy from its tray first. Your settings and history are retained. Python and .NET are included.
 
-## Widget and main window
+Choose **Launch AION 2** in the app, enter the world and open **Market once**. AionMarket waits in the background and opens the widget when prices arrive. No separate Connect button or short countdown. The game and Steam are detected automatically; if Steam must restart, the app asks first because running Steam games may close.
 
-The compact widget shows item icons, current observed listed unit prices and source age. Its cog opens Watchlist, History and Changelog. Search/category/rarity filters choose tracked items; source refresh is10Р Р†Р вЂљРІР‚Сљ60seconds. The rounded main window has left navigation and larger controls. Settings opens appearance/behavior preferences. Version and update controls are in Changelog. History shows a selected item with Low, Average and High cards, a chart and recent prices. Averages are rounded for display; retained source values remain exact. The Windows tray offers Show/Hide, settings, connection, updates and Exit.
+Wireshark with TShark and Npcap are separate first-connection prerequisites. The app checks them and links the official download when needed. Setup does not silently install drivers or start the game.
 
-History reports rolling24h minimum, unweighted mean and maximum of observed lowest listed prices, sample count/span and a chart/log preview of up to120 evenly sampled observations. Statistics use all accepted samples. Completed sales and individual highest offers are not supplied by this endpoint. Gaps/full-day coverage are never implied; loading/incomplete/unavailable/scan-limit states are explicit. The selector contains83 items from a pinned catalog, not a claim of complete current game coverage.
+## Widget and history
 
-Collection continues while the widget is hidden in the tray and the in-game market is closed. The application and game must remain running, with an awake online PC and valid session. Exit stops collection. Version1.0.1 removes the former1440-check session cap. Observations are retained locally; initial history loading costs scale with the archive. No retrospective backfill or automatic history deletion occurs. New NTFS snapshots use optional transparent compression without changing their JSON bytes; other filesystems retain normal storage.
+Choose items in Watchlist. Gathering, Crafting and Amplify Stone categories support item icons, search and rarity filters. Set refresh to10,20,30,40,50 or60seconds. The widget shows the latest observed listed minimum and its age; older observations keep their actual age. History shows the past24hours of observed prices with rounded Low/Average/High cards and a chart. Listed prices do not prove completed sales or continuous coverage.
 
-## Local state
+The rounded main window has Watchlist, History, Settings and Changelog. Ordinary windows can move and minimize without staying above the game. A minimized connection continues waiting; closing it cancels its own connection attempt. Tray Exit closes AionMarket without terminating Steam or the game.
 
-Settings/watchlist/history live in `%LOCALAPPDATA%/AionMarket`. Private connection material remains under `%LOCALAPPDATA%/Aion2MarketBot/private`, outside update images. No owner account session, captures, price history or personal settings are shipped. There are no automated trades, injection or game memory reads. For a fresh connection, the app offers a Steam launch. If Steam is already running, restarting it requires explicit confirmation because running Steam games may close. The app requests normal shutdown, waits at most 30 seconds and never force-kills it. Existing valid session material is reused. After a game-not-running stop, a game-presence check can resume the existing source; expired authentication requires reconnecting. Steam/game logging ends after a full normal Steam restart. Exiting AionMarket leaves Steam/game open.
+## Updates and privacy
 
-## Signed updates
+Changelog includes version checking. Updates use a signed ECDSA-P256 feed and verified package hashes. Executables are not Authenticode-signed. Release packages contain no user settings, history, game credentials, TLS logs or packet captures.
 
-The portable ZIP includes `update-channel.json` containing the public ECDSA P-256 trust key and feed URL. Updates verify signed SHA256/size before staging. Check for updates, then choose Exit in the tray and reopen when ready. Game credentials are never used for GitHub update traffic. Retained state is outside versioned images.
+Passive first connection observes the local launch's existing traffic, then the established collector refreshes the fixed first-party summary endpoint at the selected interval. No injection, game-memory reading, or input automation is used. Retained history is local. The app must run with a usable game session to gather new observations.
 
-Latest ZIP checksums: [SHA256SUMS.txt](SHA256SUMS.txt). Signed feed: [update.json](update.json). Trust descriptor: [update-channel.json](update-channel.json). Executables are not Windows Authenticode-signed; update signing is separate.
+## Verified scope
 
-## Notices
-
-This is a release-distribution repository. Dependency licenses and notices are included in the ZIPs. AION2 names/artwork belong to their respective owners; no ownership or redistribution license for third-party art is asserted. This is not an official NCSOFT application.
-
-## Installation boundaries
-
-Setup installs per user without silently installing drivers. Known older application versions retain settings, history and the previous image. Exit AionMarket from its tray before installing; the installer does not terminate an old portable copy. Fresh setup and default initialization do not start Steam, capture packets or enable logging. The first live connection still requires entering the game and opening/refreshing the market once. Automatic discovery and connection fixtures have passed on Windows; live first connection on ROG Ally remains unverified.
+Windows x64 fixtures, exact packaged startup checks, fresh/reinstall and public3-to4 TEMP upgrade, signed update/rollback and damaged-package refusal were checked. The repaired live game connection, cold ExitLag timing and actual ROG Ally usability remain owner-controlled acceptance work. Synthetic layout tests are not actual handheld/DPI acceptance.
