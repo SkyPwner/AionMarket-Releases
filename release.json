@@ -1,26 +1,26 @@
 {
   "schema": "aionmarket.release/1",
-  "version": "1.0.2.0",
+  "version": "1.0.3.0",
   "rid": "win-x64",
-  "sourceCommit": "a5b5f22c15e0b8473c38325a2302a42576a6b99b",
+  "sourceCommit": "1f5c479453763f408aa31a755efd50eefdbc4795",
   "buildIdentity": "Native and setup builds record previous HEAD plus dirty source hashes; all source hashes checked against the declared source commit.",
   "artifacts": [
     {
-      "bytes": 112925434,
+      "bytes": 114190164,
       "members": 817,
-      "name": "AionMarket-portable-win-x64-1.0.2.0.zip",
-      "sha256": "5fb7dd82b9be377ea8c72dba3f86b9e31a5d7b8c759e981322fbafc2890f3bb7"
+      "name": "AionMarket-portable-win-x64-1.0.3.0.zip",
+      "sha256": "28782763f8b146953f09486ad322e88ca4c29ec18d6336674dab3238ed98193f"
     },
     {
-      "bytes": 75900908,
+      "bytes": 77165653,
       "members": 621,
-      "name": "AionMarket-win-x64-1.0.2.0.zip",
-      "sha256": "30c17b63b029f6db5a99e030e26e55f5dc2af5cbb503001588476f490850a16a"
+      "name": "AionMarket-win-x64-1.0.3.0.zip",
+      "sha256": "4f487788776621631a0f5791a0a9750d0934587fad7a3e1248d7f6e3ede0d506"
     },
     {
-      "bytes": 164735854,
-      "name": "AionMarket-Setup-1.0.2.0.exe",
-      "sha256": "96e245af9821e6c4088af76cfa5a99a18f61622f69d75dee00ba836a32a29509"
+      "name": "AionMarket-Setup-1.0.3.0.exe",
+      "bytes": 166030190,
+      "sha256": "033f4ee59237def4352841714a7c7a8125790fde53875821d4ad8690da71d672"
     }
   ],
   "scope": {

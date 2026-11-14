@@ -1,14 +1,14 @@
 # AionMarket
 
-Minimal Windows x64 market widget for **AION2 Steam Global EU вЂ” Ludra, Asmodian**.
+Minimal Windows x64 market widget for **AION2 Steam Global EU РІР‚вЂќ Ludra, Asmodian**.
 
 ## Get started
 
-Download **AionMarket-Setup-1.0.2.0.exe** from [the latest release](https://github.com/SkyPwner/AionMarket-Releases/releases/latest), run it, and choose Install. The app opens a visible connection screen on a new PC. Steam and AION2 are detected automatically. Python and .NET are included. Wireshark/TShark plus Npcap are separate first-connection prerequisites, with official links and checks in the app. The full portable ZIP remains available; the update-only ZIP is for existing installations.
+Download **AionMarket-Setup-1.0.3.0.exe** from [the latest release](https://github.com/SkyPwner/AionMarket-Releases/releases/latest), run it, and choose Install. The app opens a visible connection screen on a new PC. Steam and AION2 are detected automatically. Python and .NET are included. Wireshark/TShark plus Npcap are separate first-connection prerequisites, with official links and checks in the app. The full portable ZIP remains available; the update-only ZIP is for existing installations.
 
 ## Widget and main window
 
-The compact widget shows item icons, current observed listed unit prices and source age. Its cog opens Watchlist, History and Changelog. Search/category/rarity filters choose tracked items; source refresh is10вЂ“60seconds. Main-window Settings opens appearance/behavior preferences; the installed version, Check for updates and real update status are visible there. The Windows tray offers Show/Hide, settings, connection, updates and Exit.
+The compact widget shows item icons, current observed listed unit prices and source age. Its cog opens Watchlist, History and Changelog. Search/category/rarity filters choose tracked items; source refresh is10РІР‚вЂњ60seconds. The rounded main window has left navigation and larger controls. Settings opens appearance/behavior preferences. Version and update controls are in Changelog. History shows a selected item with Low, Average and High cards, a chart and recent prices. Averages are rounded for display; retained source values remain exact. The Windows tray offers Show/Hide, settings, connection, updates and Exit.
 
 History reports rolling24h minimum, unweighted mean and maximum of observed lowest listed prices, sample count/span and a chart/log preview of up to120 evenly sampled observations. Statistics use all accepted samples. Completed sales and individual highest offers are not supplied by this endpoint. Gaps/full-day coverage are never implied; loading/incomplete/unavailable/scan-limit states are explicit. The selector contains83 items from a pinned catalog, not a claim of complete current game coverage.
 
@@ -27,6 +27,10 @@ Latest ZIP checksums: [SHA256SUMS.txt](SHA256SUMS.txt). Signed feed: [update.jso
 ## Notices
 
 This is a release-distribution repository. Dependency licenses and notices are included in the ZIPs. AION2 names/artwork belong to their respective owners; no ownership or redistribution license for third-party art is asserted. This is not an official NCSOFT application.
+
+## Installation boundaries
+
+Setup installs per user without silently installing drivers. Known older application versions retain settings, history and the previous image. Exit AionMarket from its tray before installing; the installer does not terminate an old portable copy. Fresh setup and default initialization do not start Steam, capture packets or enable logging. The first live connection still requires entering the game and opening/refreshing the market once. Automatic discovery and connection fixtures have passed on Windows; live first connection on ROG Ally remains unverified.
 
 ## Installation boundaries
 
