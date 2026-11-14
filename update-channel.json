@@ -1,0 +1,7 @@
+{
+  "feedUrl": "https://raw.githubusercontent.com/SkyPwner/AionMarket-Releases/main/update.json",
+  "schema": "aionmarket.update-channel/1",
+  "publicKeySpki": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEzgva/jvuHMU6MU4HKutXa13uFG7X5gNU8fmPW2hKMuM/9kT9A/j+hLYeQODnkA9RzOdS1PSbJae+YdzI0TzTVw==",
+  "appId": "AionMarket",
+  "rid": "win-x64"
+}

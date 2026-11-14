@@ -1,0 +1,27 @@
+{
+  "schema": "aionmarket.release/1",
+  "version": "1.0.0.0",
+  "rid": "win-x64",
+  "sourceCommit": "eb0d84aa12e6aad663e40dd35ef050b86147cbeb",
+  "buildIdentity": "Native publication recorded c3144b4 dirty tree; all 28 native source file hashes match eb0d84a. Public channel packaging performed after eb0d84a.",
+  "artifacts": [
+    {
+      "bytes": 112873087,
+      "members": 814,
+      "name": "AionMarket-portable-win-x64-1.0.0.0.zip",
+      "sha256": "fd9e6080af2e718f15d567858e7d9770028921a18a6ea87ae2165115707a4ab8"
+    },
+    {
+      "bytes": 75848985,
+      "members": 618,
+      "name": "AionMarket-win-x64-1.0.0.0.zip",
+      "sha256": "66fbf15273a7ecf79ad8524ee79442d275270c10d5bf094c26cc1092efe61193"
+    }
+  ],
+  "scope": {
+    "region": "eu",
+    "server": "Ludra",
+    "faction": "asmodian"
+  },
+  "updateFeed": "https://raw.githubusercontent.com/SkyPwner/AionMarket-Releases/main/update.json"
+}
