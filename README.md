@@ -2,7 +2,15 @@
 
 
 
+
+
+
+
 A compact Windows market companion for AION 2 — Ludra, EU, Asmodian.
+
+
+
+
 
 
 
@@ -10,7 +18,15 @@ A compact Windows market companion for AION 2 — Ludra, EU, Asmodian.
 
 
 
-Download **AionMarket-Setup-1.1.9.0.exe** from [the latest release](https://github.com/SkyPwner/AionMarket-Releases/releases/latest), run it and choose Install. Setup closes a supported older AionMarket copy and opens the installed version automatically. Your settings and history are retained. Python and .NET are included.
+
+
+
+
+Download **AionMarket-Setup-1.1.10.0.exe** from [the latest release](https://github.com/SkyPwner/AionMarket-Releases/releases/latest), run it and choose Install. Setup closes a supported older AionMarket copy and opens the installed version automatically. Your settings and history are retained. Python and .NET are included.
+
+
+
+
 
 
 
@@ -18,7 +34,15 @@ Watchlist, History, Calculator and Settings are available before entering the ga
 
 
 
+
+
+
+
 Wireshark with TShark and Npcap are separate first-connection prerequisites. Setup does not silently install drivers or start the game.
+
+
+
+
 
 
 
@@ -26,7 +50,15 @@ Wireshark with TShark and Npcap are separate first-connection prerequisites. Set
 
 
 
+
+
+
+
 Detection is automatic. If Steam or AION 2 cannot be identified, open **Settings → Game locations** and use **Browse** to choose the installed `steam.exe` and, if needed, `AION2.exe` or `AION2-Win64-Shipping.exe`. Choose **Automatic** to clear an override. Save changes, then choose **Launch AION 2** and open Market once. Selecting or saving a file does not launch the game.
+
+
+
+
 
 
 
@@ -34,7 +66,15 @@ Locations are saved separately on each Windows account. No process ID is saved. 
 
 
 
+
+
+
+
 ## Updates
+
+
+
+
 
 
 
@@ -42,7 +82,15 @@ Starting with a running **1.1.2**, choose **Check for updates** or **Apply updat
 
 
 
+
+
+
+
 Version 1.1.8 also checks which copy owns the tray. Starting a newer copy replaces an older supported instance instead of silently showing it. Setup supports the first transition from the released 1.1.5 and 1.1.6 companions without a manual tray Exit.
+
+
+
+
 
 
 
@@ -50,9 +98,21 @@ Updates use a signed ECDSA-P256 feed and verified package hashes. Executables ar
 
 
 
+
+
+
+
 Version 1.1.9 restores a failed price display automatically, keeps calculator quote ages accurate, and enables an explicit retry after a local 60-second rate-limit wait. Settings stay editable if saving fails. Installed-tool checks, session binding and private temporary files are hardened.
 
+
+
+Version 1.1.10 supports a normal AION 2 launch that retains a background startup process alongside the game. It identifies the child game process without selecting unrelated copies. Game-identification failures remain visible when connection tools retry.
+
 ## Widget, history and calculator
+
+
+
+
 
 
 
@@ -60,7 +120,15 @@ Choose items in Watchlist. Gathering, Crafting and Amplify categories support it
 
 
 
+
+
+
+
 Click a widget item for the quick calculator, or use the main **Calculator** tab. The selected item's usable minimum fills **Bought for** once. **Sale price** defaults to the lowest whole-unit price that yields at least **+1,000 profit per item** after both fees. For a cost of 18,880, the suggested sale is 22,591 and estimated profit is 1,000.08 per item. Quantity scales the totals.
+
+
+
+
 
 
 
@@ -68,7 +136,15 @@ Market updates preserve your purchase cost and manual edits, including cleared f
 
 
 
+
+
+
+
 The calculator assumes a 2% listing fee and a 10% sale fee, both on the listing total. Net proceeds are 88%; the separate sale credit is 90% because the listing fee was paid earlier. Estimates are shown before in-game rounding. A suggested price is a calculation, not a promise that an item will sell at that price.
+
+
+
+
 
 
 
@@ -76,7 +152,15 @@ The rounded main window can move and minimize without staying above the game. Cl
 
 
 
+
+
+
+
 ## Running-game compatibility
+
+
+
+
 
 
 
@@ -84,7 +168,15 @@ Version 1.1.6 adds a second documented Windows image-name format when the usual 
 
 
 
+
+
+
+
 ## Help with a connection problem
+
+
+
+
 
 
 
@@ -92,7 +184,15 @@ Open **Settings → Support → Create diagnostic report**, then **Open logs fol
 
 
 
+
+
+
+
 Safe event logs are stored beside the reports. Each app instance writes at most four 64 KiB event chunks; earlier sessions and reports are retained. Support actions do not save an unfinished settings draft or launch/restart the game.
+
+
+
+
 
 
 
@@ -100,13 +200,27 @@ Safe event logs are stored beside the reports. Each app instance writes at most 
 
 
 
+
+
+
+
 Release packages contain no user settings, history, game credentials, TLS logs or captures. The first connection observes the local launch's existing traffic; the established collector then refreshes one fixed first-party summary endpoint at the selected interval. No injection, game-memory reading or automatic game input is used. History stays local. The app needs a usable game session to collect new prices.
+
+
+
+
 
 
 
 Version 1.1.9 passed 575 market Python tests, 1210 native checks, 240 update-core checks, 97 Setup checks and exact 822-file payload verification. Further fixtures cover 39 installer process-lifetime cases, actual 1.1.8/1.1.9 settings and updater consumers, and real harmless handoff. Installation on the owner’s PC replaced 1.1.8 and resumed price collection while preserving history and the running game/Steam. Physical ROG Ally behavior and in-game fee rounding remain separate acceptance checks.
 
 
+
+
+
 ## How prices are obtained
 
+
+
 The first connection uses local TLS key logging and a short network capture. Subsequent updates send fixed read-only market requests using the prepared session. This is not passive-only monitoring. Before enabling logging, the app explains local key storage and inheritance by supporting Steam child processes. Logging may continue after AionMarket closes; fully exit Steam and start Steam normally to stop it. Updating the companion does not require restarting the game.
+
