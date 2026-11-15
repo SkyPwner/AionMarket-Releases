@@ -1,3 +1,3 @@
-143efec0444ce3811df19943d7e5baf62997847984af9fcd146f9c42aa8a8a5d  AionMarket-portable-win-x64-1.1.7.0.zip
-5a3ee9bf8f1da1dcb1d7fc22f4fd82996bf11297b30e2a940313bdf470abfd72  AionMarket-win-x64-1.1.7.0.zip
-ac183e9f6092fd712fd5164178a063bec403cf0f50d605d9faa7743d9ecfdc28  AionMarket-Setup-1.1.7.0.exe
+eabc1956c6ee81825fb9a58c6960e0b8a2fde53fca45263fcb8eb63e6300980c  AionMarket-portable-win-x64-1.1.8.0.zip
+fd18421291799b9e4204d3913da2741698a048510d3c8c7f16d7a0dda3ca6c43  AionMarket-win-x64-1.1.8.0.zip
+9aa26c480e81b69486d2ec184b59a76debd44ab2d4c6ec273a13d03ba680a8f1  AionMarket-Setup-1.1.8.0.exe

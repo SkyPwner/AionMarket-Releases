@@ -1,26 +1,26 @@
 {
   "schema": "aionmarket.release/1",
-  "version": "1.1.7.0",
+  "version": "1.1.8.0",
   "rid": "win-x64",
-  "sourceCommit": "7e58bf78e5b189d12c20b9420b12cd42dfe91c75",
-  "buildIdentity": "Native source ba02b9d (63 inputs,1148 checks); Setup source7e58bf7 (13 inputs,87 checks,820 payload files). Per-profile version-aware real-child handoff tested with isolated semantic version labels. Setup closes pinned public115/116 companions and individually proven workers; modern repair is cooperative. Three pure update sources and all69 packaged backend files match116. Packager final directory move was denied; exact completed7-file Setup stage was copied and independently rehashed without rebuilding. Physical ROG acceptance remains unverified.",
+  "sourceCommit": "459792f41780c4ef50b104f0a14ebde47999ed66",
+  "buildIdentity": "Source459792f. Native63 inputs/1148 checks; Setup13 inputs/92 checks/820 payload files. Directory-root-only normalization fixes117normal-shortcut refusal, keeping exact file/process/role checks. Same actual116 UI argv rejects in117and accepts in118; production118 Prepare lease passed read-only against exact118payload before publication. All69 backend files/three pure updater sources match116. Setupproducer final directory rename denied; exact completed7-file stage recovered by verified copy without rebuilding. Device installation and public readback evidence recorded separately.",
   "artifacts": [
     {
-      "bytes": 114342382,
+      "bytes": 114342392,
       "members": 820,
-      "name": "AionMarket-portable-win-x64-1.1.7.0.zip",
-      "sha256": "143efec0444ce3811df19943d7e5baf62997847984af9fcd146f9c42aa8a8a5d"
+      "name": "AionMarket-portable-win-x64-1.1.8.0.zip",
+      "sha256": "eabc1956c6ee81825fb9a58c6960e0b8a2fde53fca45263fcb8eb63e6300980c"
     },
     {
       "bytes": 77317632,
       "members": 624,
-      "name": "AionMarket-win-x64-1.1.7.0.zip",
-      "sha256": "5a3ee9bf8f1da1dcb1d7fc22f4fd82996bf11297b30e2a940313bdf470abfd72"
+      "name": "AionMarket-win-x64-1.1.8.0.zip",
+      "sha256": "fd18421291799b9e4204d3913da2741698a048510d3c8c7f16d7a0dda3ca6c43"
     },
     {
-      "name": "AionMarket-Setup-1.1.7.0.exe",
-      "bytes": 166504814,
-      "sha256": "ac183e9f6092fd712fd5164178a063bec403cf0f50d605d9faa7743d9ecfdc28"
+      "bytes": 166526830,
+      "name": "AionMarket-Setup-1.1.8.0.exe",
+      "sha256": "9aa26c480e81b69486d2ec184b59a76debd44ab2d4c6ec273a13d03ba680a8f1"
     }
   ],
   "scope": {
