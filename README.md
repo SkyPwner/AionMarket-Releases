@@ -4,7 +4,7 @@ A compact Windows market companion for AION 2 — Ludra, EU, Asmodian.
 
 ## Install and start
 
-Download **AionMarket-Setup-1.1.3.0.exe** from [the latest release](https://github.com/SkyPwner/AionMarket-Releases/releases/latest), run it and choose Install. Close an older AionMarket copy from its tray before a manual installer upgrade. Your settings and history are retained. Python and .NET are included.
+Download **AionMarket-Setup-1.1.4.0.exe** from [the latest release](https://github.com/SkyPwner/AionMarket-Releases/releases/latest), run it and choose Install. Close an older AionMarket copy from its tray before a manual installer upgrade. Your settings and history are retained. Python and .NET are included.
 
 Watchlist, History, Calculator and Settings are available before entering the game. For the first connection, choose **Launch AION 2**, enter the world and open **Market once**. Connection is confirmed when real prices arrive. Open the optional price widget with **Show price widget**. The game and Steam are found automatically; any required Steam restart is explicitly confirmed first.
 
@@ -28,9 +28,11 @@ Updates use a signed ECDSA-P256 feed and verified package hashes. Executables ar
 
 Choose items in Watchlist. Gathering, Crafting and Amplify categories support item icons, search and rarity filters. Refresh choices are 10, 20, 30, 40, 50 or 60 seconds. The widget shows observed listed minimum prices with their real age; history shows the past 24 hours of available observations. Listed prices do not prove completed sales or continuous coverage.
 
-Click a widget item for the quick calculator, or use the main **Calculator** tab. The selected item's available minimum fills the sale price automatically, including items outside the watchlist. A retained quote is labelled **Last known minimum** with its age. If no usable quote exists, enter a price. Once you edit or clear the sale price, incoming quotes preserve your draft; **Use price** explicitly replaces it.
+Click a widget item for the quick calculator, or use the main **Calculator** tab. The selected item's usable minimum fills **Bought for** once. **Sale price** defaults to the lowest whole-unit price that yields at least **+1,000 profit per item** after both fees. For a cost of 18,880, the suggested sale is 22,591 and estimated profit is 1,000.08 per item. Quantity scales the totals.
 
-Enter quantity and optionally a purchase price to estimate profit. The calculator assumes a 2% listing fee and a 10% sale fee, both on the listing total. Net proceeds are 88%; the separate sale credit is 90% because the listing fee was paid earlier. Estimates are shown before in-game rounding.
+Market updates preserve your purchase cost and manual edits, including cleared fields. **Use as cost** explicitly takes the latest available minimum and restores the automatic sale suggestion. A retained quote is labelled **Last known minimum** with its age; unavailable quotes do not overwrite your calculation.
+
+The calculator assumes a 2% listing fee and a 10% sale fee, both on the listing total. Net proceeds are 88%; the separate sale credit is 90% because the listing fee was paid earlier. Estimates are shown before in-game rounding. A suggested price is a calculation, not a promise that an item will sell at that price.
 
 The rounded main window can move and minimize without staying above the game. Closing a view preserves the background session and its draft. Temporary failures retain the last prices and offer bounded recovery. Tray Exit closes AionMarket without terminating Steam or AION 2.
 
@@ -38,4 +40,4 @@ The rounded main window can move and minimize without staying above the game. Cl
 
 Release packages contain no user settings, history, game credentials, TLS logs or captures. The first connection observes the local launch's existing traffic; the established collector then refreshes one fixed first-party summary endpoint at the selected interval. No injection, game-memory reading or automatic game input is used. History stays local. The app needs a usable game session to collect new prices.
 
-Version 1.1.3 passed 1023 native checks, 558 market Python tests, 61 Setup checks and exact 820-file payload verification. Actual 1.1.3/1.1.2 settings readers and writers retained the optional choices and unknown fields in an isolated round trip. Fresh/reinstall, public 1.1.2 and 1.0.4 upgrades, signed activation/rollback and damaged-package refusal passed. Windows metadata was checked against a harmless own-process fixture. Physical ROG Ally behavior and in-game fee rounding remain separate acceptance checks.
+Version 1.1.4 passed 1052 native checks, 61 Setup checks and exact 820-file payload verification. The packaged backend and settings/update adapters are byte-identical to 1.1.3; its 558 market Python checks and settings compatibility evidence cover those unchanged boundaries. Release installation and signed update checks are recorded with the build. Physical ROG Ally behavior and in-game fee rounding remain separate acceptance checks.
