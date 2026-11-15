@@ -1,26 +1,27 @@
 {
   "schema": "aionmarket.release/1",
-  "version": "1.1.8.0",
+  "version": "1.1.9.0",
   "rid": "win-x64",
-  "sourceCommit": "459792f41780c4ef50b104f0a14ebde47999ed66",
-  "buildIdentity": "Source459792f. Native63 inputs/1148 checks; Setup13 inputs/92 checks/820 payload files. Directory-root-only normalization fixes117normal-shortcut refusal, keeping exact file/process/role checks. Same actual116 UI argv rejects in117and accepts in118; production118 Prepare lease passed read-only against exact118payload before publication. All69 backend files/three pure updater sources match116. Setupproducer final directory rename denied; exact completed7-file stage recovered by verified copy without rebuilding. Device installation and public readback evidence recorded separately.",
+  "sourceCommit": "c377a034699ef1a5bf36ccc5cdd4431f113265f3",
+  "nativeSourceCommit": "c61971b507ff5bfda05a1a49ce85b428f4cb9513",
+  "buildIdentity": "Native 1210 checks and all source hashes match final source; corrected Setup-r2 97 checks, 822 payload files, source c377a03. Python575 and update-core240 tests. Verified118 root launcher inventory included. Ordinary transient worker completion was reproduced and corrected; modern workers retain read-only identity through cooperative UI exit. Final Setup directory rename failed; seven completed producer files and all13 input hashes verified during copy recovery without rebuilding. Exact package update/settings/installation checks are recorded separately.",
   "artifacts": [
     {
-      "bytes": 114342392,
-      "members": 820,
-      "name": "AionMarket-portable-win-x64-1.1.8.0.zip",
-      "sha256": "eabc1956c6ee81825fb9a58c6960e0b8a2fde53fca45263fcb8eb63e6300980c"
+      "bytes": 114359917,
+      "members": 822,
+      "name": "AionMarket-portable-win-x64-1.1.9.0.zip",
+      "sha256": "5fc050c39f6204008bf7cbbad3ae451783257c54c14b03b7d1f66703c02e72c2"
     },
     {
-      "bytes": 77317632,
-      "members": 624,
-      "name": "AionMarket-win-x64-1.1.8.0.zip",
-      "sha256": "fd18421291799b9e4204d3913da2741698a048510d3c8c7f16d7a0dda3ca6c43"
+      "bytes": 77334915,
+      "members": 626,
+      "name": "AionMarket-win-x64-1.1.9.0.zip",
+      "sha256": "e5617def18c9beffc016621c9c02e477af6a84560ea96e10bd7d067ec62d6af7"
     },
     {
-      "bytes": 166526830,
-      "name": "AionMarket-Setup-1.1.8.0.exe",
-      "sha256": "9aa26c480e81b69486d2ec184b59a76debd44ab2d4c6ec273a13d03ba680a8f1"
+      "bytes": 166582638,
+      "sha256": "f38353a887ce7d7599536e26b07a369b7e570f4dd10c389ac8388f9b9792b101",
+      "name": "AionMarket-Setup-1.1.9.0.exe"
     }
   ],
   "scope": {
@@ -28,5 +29,15 @@
     "server": "Ludra",
     "faction": "asmodian"
   },
-  "updateFeed": "https://raw.githubusercontent.com/SkyPwner/AionMarket-Releases/main/update.json"
+  "updateFeed": "https://raw.githubusercontent.com/SkyPwner/AionMarket-Releases/main/update.json",
+  "ownerAcceptance": {
+    "from": "1.1.8.0",
+    "to": "1.1.9.0",
+    "oldUiClosedAutomatically": true,
+    "newUiVerified": true,
+    "newMarketObservationsAccepted": true,
+    "gameAndSteamUnchanged": true,
+    "historicalNamesMissing": 0,
+    "physicalRogTested": false
+  }
 }
