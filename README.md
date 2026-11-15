@@ -4,7 +4,7 @@ A compact Windows market companion for AION 2 — Ludra, EU, Asmodian.
 
 ## Install and start
 
-Download **AionMarket-Setup-1.1.4.0.exe** from [the latest release](https://github.com/SkyPwner/AionMarket-Releases/releases/latest), run it and choose Install. Close an older AionMarket copy from its tray before a manual installer upgrade. Your settings and history are retained. Python and .NET are included.
+Download **AionMarket-Setup-1.1.5.0.exe** from [the latest release](https://github.com/SkyPwner/AionMarket-Releases/releases/latest), run it and choose Install. Close an older AionMarket copy from its tray before a manual installer upgrade. Your settings and history are retained. Python and .NET are included.
 
 Watchlist, History, Calculator and Settings are available before entering the game. For the first connection, choose **Launch AION 2**, enter the world and open **Market once**. Connection is confirmed when real prices arrive. Open the optional price widget with **Show price widget**. The game and Steam are found automatically; any required Steam restart is explicitly confirmed first.
 
@@ -36,8 +36,14 @@ The calculator assumes a 2% listing fee and a 10% sale fee, both on the listing 
 
 The rounded main window can move and minimize without staying above the game. Closing a view preserves the background session and its draft. Temporary failures retain the last prices and offer bounded recovery. Tray Exit closes AionMarket without terminating Steam or AION 2.
 
+## Help with a connection problem
+
+Open **Settings → Support → Create diagnostic report**, then **Open logs folder**. Share the newest `support-…json` file. Reports stay on your PC until you choose to share them; nothing uploads automatically. The report distinguishes installation discovery, running-game detection and metadata access failures. It includes app/Windows versions and safe connection status, without account credentials, session keys, packet content, raw errors, usernames or full paths.
+
+Safe event logs are stored beside the reports. Each app instance writes at most four 64 KiB event chunks; earlier sessions and reports are retained. Support actions do not save an unfinished settings draft or launch/restart the game.
+
 ## Privacy and scope
 
 Release packages contain no user settings, history, game credentials, TLS logs or captures. The first connection observes the local launch's existing traffic; the established collector then refreshes one fixed first-party summary endpoint at the selected interval. No injection, game-memory reading or automatic game input is used. History stays local. The app needs a usable game session to collect new prices.
 
-Version 1.1.4 passed 1052 native checks, 61 Setup checks and exact 820-file payload verification. The packaged backend and settings/update adapters are byte-identical to 1.1.3; its 558 market Python checks and settings compatibility evidence cover those unchanged boundaries. Release installation and signed update checks are recorded with the build. Physical ROG Ally behavior and in-game fee rounding remain separate acceptance checks.
+Version 1.1.5 passed 1114 native checks, 61 Setup checks and exact 820-file payload verification. Tests cover safe report fields, file/ancestor protection and support controls at normal and small sizes. The packaged backend and settings/update adapters are unchanged from 1.1.4. Release installation and signed update checks are recorded with the build. Physical ROG Ally behavior and in-game fee rounding remain separate acceptance checks.

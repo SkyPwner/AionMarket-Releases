@@ -1,26 +1,26 @@
 {
   "schema": "aionmarket.release/1",
-  "version": "1.1.4.0",
+  "version": "1.1.5.0",
   "rid": "win-x64",
-  "sourceCommit": "b731ed2484a6dc05dcde212d9e451f90fee1709f",
-  "buildIdentity": "Source b731ed2. Native56 source inputs/1052 checks; Setup11 source inputs/61 checks/820 embedded files. All69 packaged backend files and settings/update adapters match public113 byte for byte, so prior558 market Python checks and settings compatibility evidence apply to unchanged boundaries. Exact release installation, signed update activation/rollback and damaged-package checks are recorded separately. In-game fee rounding and physical ROG Ally acceptance remain unverified.",
+  "sourceCommit": "ce050b587df141f30d343581c62a6820175f9c6e",
+  "buildIdentity": "Source ce050b5. Native61 source inputs/1114 checks; Setup11 source inputs/61 checks/820 embedded files. Fixed-field diagnostics and explicit support actions tested on isolated Windows fixtures; packaged backend and settings/update adapters unchanged from public114. Prior558 market Python checks apply to unchanged backend boundaries. Exact package/update and installation evidence are recorded separately; friend ROG acceptance remains unverified.",
   "artifacts": [
     {
-      "bytes": 114306385,
+      "bytes": 114326145,
       "members": 820,
-      "name": "AionMarket-portable-win-x64-1.1.4.0.zip",
-      "sha256": "39f2c5656ab1e05b16cc312d6f69e0fab0b80be0a4a642763a2e4fda079aada6"
+      "name": "AionMarket-portable-win-x64-1.1.5.0.zip",
+      "sha256": "fe850f29c6babb3a998f64e987c79443fc13635fdf50303c0141c58660e2adc3"
     },
     {
-      "bytes": 77281627,
+      "bytes": 77301382,
       "members": 624,
-      "name": "AionMarket-win-x64-1.1.4.0.zip",
-      "sha256": "f2a952b9a33f290468cc5c274131cfd29cbc6b6dfe134c9df03c554d0fc6bcde"
+      "name": "AionMarket-win-x64-1.1.5.0.zip",
+      "sha256": "20f67fdcda929ce4433fbf93b563ddb7618a2a517d6f32837eff775a04a2fa1d"
     },
     {
-      "bytes": 166355310,
-      "sha256": "bd61bfb2860f8aecfe668d7a397ff49ee916f50f478bdf34b6ed3c4d530d5a4a",
-      "name": "AionMarket-Setup-1.1.4.0.exe"
+      "name": "AionMarket-Setup-1.1.5.0.exe",
+      "sha256": "e0b844f90dcf534d0ecf548adc0c8ecb6d9eeef8015ea94ee904e186692c2db9",
+      "bytes": 166395758
     }
   ],
   "scope": {
