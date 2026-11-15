@@ -4,11 +4,17 @@ A compact Windows market companion for AION 2 — Ludra, EU, Asmodian.
 
 ## Install and start
 
-Download **AionMarket-Setup-1.1.2.0.exe** from [the latest release](https://github.com/SkyPwner/AionMarket-Releases/releases/latest), run it and choose Install. Close an older AionMarket copy from its tray before a manual installer upgrade. Your settings and history are retained. Python and .NET are included.
+Download **AionMarket-Setup-1.1.3.0.exe** from [the latest release](https://github.com/SkyPwner/AionMarket-Releases/releases/latest), run it and choose Install. Close an older AionMarket copy from its tray before a manual installer upgrade. Your settings and history are retained. Python and .NET are included.
 
 Watchlist, History, Calculator and Settings are available before entering the game. For the first connection, choose **Launch AION 2**, enter the world and open **Market once**. Connection is confirmed when real prices arrive. Open the optional price widget with **Show price widget**. The game and Steam are found automatically; any required Steam restart is explicitly confirmed first.
 
 Wireshark with TShark and Npcap are separate first-connection prerequisites. Setup does not silently install drivers or start the game.
+
+## Game locations
+
+Detection is automatic. If Steam or AION 2 cannot be identified, open **Settings → Game locations** and use **Browse** to choose the installed `steam.exe` and, if needed, `AION2.exe` or `AION2-Win64-Shipping.exe`. Choose **Automatic** to clear an override. Save changes, then choose **Launch AION 2** and open Market once. Selecting or saving a file does not launch the game.
+
+Locations are saved separately on each Windows account. No process ID is saved. Secondary/SD libraries and Unicode paths are supported. A missing or moved selection can be replaced without losing history. Only one actual game client may be running while establishing a fresh connection. An existing valid saved connection still belongs to its original game instance.
 
 ## Updates
 
@@ -32,4 +38,4 @@ The rounded main window can move and minimize without staying above the game. Cl
 
 Release packages contain no user settings, history, game credentials, TLS logs or captures. The first connection observes the local launch's existing traffic; the established collector then refreshes one fixed first-party summary endpoint at the selected interval. No injection, game-memory reading or automatic game input is used. History stays local. The app needs a usable game session to collect new prices.
 
-Version 1.1.2 passed 964 native checks, 548 market Python tests, 61 setup checks and exact 819-file payload verification. Hidden tests against the final assembly and a retained market frame verify decimal wire prices, calculator defaults and preserved timestamps. The calculator adds no market request. Update restart fixtures use harmless child processes; actual ROG Ally/DPI behavior and game fee rounding remain separate acceptance checks.
+Version 1.1.3 passed 1023 native checks, 558 market Python tests, 61 Setup checks and exact 820-file payload verification. Actual 1.1.3/1.1.2 settings readers and writers retained the optional choices and unknown fields in an isolated round trip. Fresh/reinstall, public 1.1.2 and 1.0.4 upgrades, signed activation/rollback and damaged-package refusal passed. Windows metadata was checked against a harmless own-process fixture. Physical ROG Ally behavior and in-game fee rounding remain separate acceptance checks.
