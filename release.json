@@ -1,26 +1,26 @@
 {
   "schema": "aionmarket.release/1",
-  "version": "1.1.1.0",
+  "version": "1.1.2.0",
   "rid": "win-x64",
-  "sourceCommit": "faba549cfc929154c00facaa36f09d9021d6f01a",
-  "buildIdentity": "Source faba549. Native producer records52 exact source hashes; setup records11 inputs.837 native checks and TEMP upgrades from1.1/public4 passed. Existing valid connections resume after app restart; game/Steam launch remains separate. No owner restart was performed during publication.",
+  "sourceCommit": "0eb92e985608196910659f2d6bc1fcb0a5ee234f",
+  "buildIdentity": "Source0eb92e9. Native producer records55 source hashes and964 native checks; Setup records11 inputs. Calculator defaults accept exact integral wire decimals; edited drafts remain owned by the user. Running1.1.2 restarts AionMarket automatically after an explicit verified update; game and Steam are untouched.548 market Python tests pass. Exact artifact and TEMP upgrade evidence accompany publication.",
   "artifacts": [
     {
-      "bytes": 114267860,
-      "members": 818,
-      "name": "AionMarket-portable-win-x64-1.1.1.0.zip",
-      "sha256": "8b1fc86248399cda08374f996a024c2ade8c069c1b9c5b4cf89a467fc043f525"
+      "bytes": 114291609,
+      "members": 819,
+      "name": "AionMarket-portable-win-x64-1.1.2.0.zip",
+      "sha256": "fd77682337f21e7c26f64ef541c151466cd7123c2bfbd64a0d7bf073ba0ebb7c"
     },
     {
-      "bytes": 77243275,
-      "members": 622,
-      "name": "AionMarket-win-x64-1.1.1.0.zip",
-      "sha256": "8c3b5874b5fd7b3ec9578b207254c812997fb6eae4e2c9330c20b1e453dca81d"
+      "bytes": 77266926,
+      "members": 623,
+      "name": "AionMarket-win-x64-1.1.2.0.zip",
+      "sha256": "1369eb922a4f972aa4103e7a2ad4948323449a491cc665bea4142f367a756de9"
     },
     {
-      "name": "AionMarket-Setup-1.1.1.0.exe",
-      "bytes": 166253934,
-      "sha256": "bd35e1f1328a2202d25ed8af0e076098ab440d0ab8ab559f22ef274c7257710e"
+      "name": "AionMarket-Setup-1.1.2.0.exe",
+      "bytes": 166298478,
+      "sha256": "cadc034fce748927ebcbfa8f5c9fc2f22d4c1988ebdd5f687b750332c1a72029"
     }
   ],
   "scope": {
