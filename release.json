@@ -1,26 +1,26 @@
 {
   "schema": "aionmarket.release/1",
-  "version": "1.0.4.0",
+  "version": "1.1.1.0",
   "rid": "win-x64",
-  "sourceCommit": "36d41b9d68525ad3cc8b1b137cf4b04d906a4b63",
-  "buildIdentity": "Native and setup builds record previous HEAD plus dirty source hashes; all source hashes checked against the declared source commit.",
+  "sourceCommit": "faba549cfc929154c00facaa36f09d9021d6f01a",
+  "buildIdentity": "Source faba549. Native producer records52 exact source hashes; setup records11 inputs.837 native checks and TEMP upgrades from1.1/public4 passed. Existing valid connections resume after app restart; game/Steam launch remains separate. No owner restart was performed during publication.",
   "artifacts": [
     {
-      "bytes": 114206635,
+      "bytes": 114267860,
       "members": 818,
-      "name": "AionMarket-portable-win-x64-1.0.4.0.zip",
-      "sha256": "fe80cd4f0f0dabdf2e3f286a03b0adec7a0582d8fff5319bfcf0f5f66dcfdcda"
+      "name": "AionMarket-portable-win-x64-1.1.1.0.zip",
+      "sha256": "8b1fc86248399cda08374f996a024c2ade8c069c1b9c5b4cf89a467fc043f525"
     },
     {
-      "bytes": 77182056,
+      "bytes": 77243275,
       "members": 622,
-      "name": "AionMarket-win-x64-1.0.4.0.zip",
-      "sha256": "919439443b34b7516434d86fd77bd1c85e0fb9de6f9f8653535282d795f1e213"
+      "name": "AionMarket-win-x64-1.1.1.0.zip",
+      "sha256": "8c3b5874b5fd7b3ec9578b207254c812997fb6eae4e2c9330c20b1e453dca81d"
     },
     {
-      "bytes": 166067566,
-      "sha256": "4e18e9169431eae3625fbdb745fda691caca7d698a2eb6afe7e141a1d71680fe",
-      "name": "AionMarket-Setup-1.0.4.0.exe"
+      "name": "AionMarket-Setup-1.1.1.0.exe",
+      "bytes": 166253934,
+      "sha256": "bd35e1f1328a2202d25ed8af0e076098ab440d0ab8ab559f22ef274c7257710e"
     }
   ],
   "scope": {
