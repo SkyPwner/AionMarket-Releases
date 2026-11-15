@@ -4,7 +4,7 @@ A compact Windows market companion for AION 2 — Ludra, EU, Asmodian.
 
 ## Install and start
 
-Download **AionMarket-Setup-1.1.6.0.exe** from [the latest release](https://github.com/SkyPwner/AionMarket-Releases/releases/latest), run it and choose Install. Close an older AionMarket copy from its tray before a manual installer upgrade. Your settings and history are retained. Python and .NET are included.
+Download **AionMarket-Setup-1.1.7.0.exe** from [the latest release](https://github.com/SkyPwner/AionMarket-Releases/releases/latest), run it and choose Install. Setup closes a supported older AionMarket copy and opens the installed version automatically. Your settings and history are retained. Python and .NET are included.
 
 Watchlist, History, Calculator and Settings are available before entering the game. For the first connection, choose **Launch AION 2**, enter the world and open **Market once**. Connection is confirmed when real prices arrive. Open the optional price widget with **Show price widget**. The game and Steam are found automatically; any required Steam restart is explicitly confirmed first.
 
@@ -18,9 +18,9 @@ Locations are saved separately on each Windows account. No process ID is saved. 
 
 ## Updates
 
-Starting with a running **1.1.2**, choose **Check for updates** or **Apply update** in Changelog. A verified update restarts AionMarket automatically. A background download waits for your Apply action. AION 2 and Steam stay running; do not choose Launch AION 2 just to update the app. The saved valid market connection resumes when the companion reopens. Expired authentication or a changed game instance requires an explicit reconnect.
+Starting with a running **1.1.2**, choose **Check for updates** or **Apply update** in Changelog. A verified update restarts AionMarket automatically. A background download waits for your Apply action and leaves the running version active until then. AION 2 and Steam stay running; do not choose Launch AION 2 just to update the app. The saved valid market connection resumes when the companion reopens. Expired authentication or a changed game instance requires an explicit reconnect.
 
-An older app cannot execute the new restart code: the first transition from 1.1.1 or earlier still needs that older companion to close and reopen once. It does not require restarting the game.
+Version 1.1.7 also checks which copy owns the tray. Starting a newer copy replaces an older supported instance instead of silently showing it. Setup supports the first transition from the released 1.1.5 and 1.1.6 companions without a manual tray Exit.
 
 Updates use a signed ECDSA-P256 feed and verified package hashes. Executables are not Authenticode-signed. If the automatic restart cannot be prepared, the existing app remains open. If the new image cannot launch after exit, reopen the stable AionMarket shortcut.
 
@@ -50,4 +50,4 @@ Safe event logs are stored beside the reports. Each app instance writes at most 
 
 Release packages contain no user settings, history, game credentials, TLS logs or captures. The first connection observes the local launch's existing traffic; the established collector then refreshes one fixed first-party summary endpoint at the selected interval. No injection, game-memory reading or automatic game input is used. History stays local. The app needs a usable game session to collect new prices.
 
-Version 1.1.6 passed 1120 native checks, 562 market Python tests, 61 Setup checks and exact 820-file payload verification. A controlled before/after fixture reproduces the old image-query failure and verifies the fallback without weakening instance identity. Packaging, update and installation evidence is recorded with the release. Physical ROG Ally success and in-game fee rounding remain separate acceptance checks.
+Version 1.1.7 passed 1148 native checks, 87 Setup checks and exact 820-file payload verification. Isolated real-child tests cover version handoff and one profile owner. Signed updates and rollback from the public 1.1.5 and 1.1.6 archives preserve retained data. All 69 packaged backend files match 1.1.6; its 562 Python-test result applies to those unchanged files. Physical ROG Ally behavior and in-game fee rounding remain separate acceptance checks.
