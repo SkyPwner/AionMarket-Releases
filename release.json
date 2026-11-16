@@ -1,28 +1,26 @@
 {
   "schema": "aionmarket.release/1",
-  "version": "1.1.10.0",
+  "version": "1.2.5.0",
   "rid": "win-x64",
-  "sourceCommit": "6b0d7d099455e62b5358c910c52a2241d7224d77",
-  "nativeSourceCommit": "bd4d0436d31191817bc7f4a3ed3faa30582bf618",
-  "backendSourceCommit": "bd4d0436d31191817bc7f4a3ed3faa30582bf618",
-  "buildIdentity": "Native1210 and embedded Python124 checks passed; exact native and portable source bd4d043. Setup97 checks and822payload files passed from6b0d7d0, whose sole change synchronizes the verified119 launcher-inventory fixture. No game input, injected code, data migration or capture policy change. Physical ROG price acceptance remains device-side.",
+  "sourceCommit": "224a883803076256626ecb1229a22bb21d0c9193",
+  "buildIdentity": "Final r2 native source snapshot at 224a883; setup receipt additionally pins pre-existing dirty Program.cs bytes. Native 1404 checks, Python 155 integration tests, Setup 106 checks, 835 app files. Exact packaged presentation and local installation verified. Current offers are read-only listings, not completed sales. Local first Setup handoff needed retry after old companion exited; cause remains unresolved.",
   "artifacts": [
     {
-      "bytes": 114363032,
-      "members": 822,
-      "name": "AionMarket-portable-win-x64-1.1.10.0.zip",
-      "sha256": "2c4db6af8907568d9ed725aab242a0b55dd7670b72b274bd921797f27c1e300b"
+      "bytes": 132206669,
+      "members": 1031,
+      "name": "AionMarket-portable-win-x64-1.2.5.0.zip",
+      "sha256": "96429d1e0f3cc51a36239a9a165f85199c44c4b1fd599ca7a0a59a990a60fcd1"
     },
     {
-      "bytes": 77336683,
-      "members": 626,
-      "name": "AionMarket-win-x64-1.1.10.0.zip",
-      "sha256": "c9a71b8ba068738d7175d536b1e8a5040f577cecb2f64c4070e969c6407b7d13"
+      "bytes": 95167991,
+      "members": 835,
+      "name": "AionMarket-win-x64-1.2.5.0.zip",
+      "sha256": "bf67f1b4fc1394e1869723ee4f813e04a56c7e508429bc2f86e620f13fdcc036"
     },
     {
-      "bytes": 166606704,
-      "name": "AionMarket-Setup-1.1.10.0.exe",
-      "sha256": "19fa2c0f7b7dca58e2a688096c4e5cd3e37bb76ee48de37cb90fcaee67ed4a51"
+      "sha256": "a5bb113d486794e912c7c3823fcc334aa42d15ca0e865119f95a6d670792efb1",
+      "bytes": 184453486,
+      "name": "AionMarket-Setup-1.2.5.0.exe"
     }
   ],
   "scope": {
