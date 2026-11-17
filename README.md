@@ -4,29 +4,30 @@ A compact Windows market companion for AION 2 — Ludra, EU, Asmodian.
 
 ## Install
 
-Download **AionMarket-Setup-1.2.5.0.exe** from [the latest release](https://github.com/SkyPwner/AionMarket-Releases/releases/latest), run it and choose Install. Python and .NET are included. Your watchlist, settings and recorded history are retained.
+Download **AionMarket-Setup-1.2.13.0.exe** from [the latest release](https://github.com/SkyPwner/AionMarket-Releases/releases/latest) and choose Install. Python and .NET are included. Your watchlist, settings and recorded history are retained.
 
-Choose **Launch AION 2** in the app, enter the world and open **Market once**. A previously valid connection can resume without restarting the game when only AionMarket is updated. Wireshark with TShark and Npcap are separate first-connection prerequisites; Setup does not install drivers or launch the game.
+Choose **Launch AION 2**, enter the world and open **Market once**. A valid existing connection can resume when only AionMarket is updated. Wireshark with TShark and Npcap are separate first-connection prerequisites; Setup does not install drivers or launch the game.
 
-## Prices and calculator
+## Use
 
-- Search, category and rarity filters, real item icons and numeric price sorting.
-- A small optional widget: item icon, price and source age; controls appear on hover.
-- Click a widget item to open its profit calculator. The current minimum seeds purchase cost; an untouched sale field follows a target of at least 1,000 profit per unit after the configured 2% listing and 10% sale fees.
-- **Offers average** loads current offers for the selected item in the background. It is a quantity-weighted unit average. **Below your sale** counts offers strictly cheaper than your entered sale price, including an offer you might buy.
-- `partial` means incomplete coverage; its count is a lower bound. Offers can change while being read. A mean or price gap does not establish a completed sale or guarantee profit.
-- The separate `~price` on item cards is the 24-hour average of recorded minimum listing prices. History contains locally observed listings, not completed sales.
+- **Alt+Z** opens the main window. Change or disable it in **Settings → Open main window**.
+- Search and filter by category and coloured rarity. Sort by price or estimated profit.
+- The optional widget shows item icons, prices and age; controls appear on hover.
+- Click an item for the calculator. Purchase edits keep an untouched sale field at a target of at least 1,000 estimated profit per unit after the 2% listing and 10% sale fees.
+- **Helper** checks gathering, crafting and amplify items. It compares buying the first one to four complete lots and reselling below the next offer. Buy total, Sell each, You need and estimated Profit show the plan. Only fresh, supported estimates meeting the profit threshold appear. It scans while the tab is open and never buys or sells for you.
+- Selected-item **Offers average** is the quantity-weighted average of observed current listings. **Below your sale** counts observed offers strictly cheaper than your entered unit sale price. Coverage may be partial and pages can change during a read.
+- The separate `~price` on item cards is the 24-hour average of recorded minimum listing prices. History contains observations, not completed sales.
 
-Prices are recorded while the companion and a valid game session are running. Closing the app does not create a full-day history later.
+Estimates and price gaps do not guarantee a sale or profit. Prices are recorded while the app and a valid game session are running; no missing full-day history is created later. Scan duration depends on the server, network and supported items.
 
 ## Update
 
-Use **Check for updates**, then **Apply update**. Only the companion needs to restart; do not choose Launch AION 2 just to apply an app update. A background download waits for Apply. The updater verifies the signed feed and package hash before activation.
+Choose **Check for updates → Apply update**. AionMarket closes its previous instance and starts the new version. Only the companion needs to restart; keep AION 2 running. The updater verifies the signed feed and package hash before activation. An expired or different game session still needs a fresh connection.
 
-If an update cannot finish or an old version remains, exit AionMarket and run the latest installer again. A local Setup transition required a retry; it preserved settings and history. Game authentication that expired or belongs to a different game instance requires a fresh connection.
+If an old companion cannot finish closing, exit AionMarket and retry the latest installer. Settings/history remain retained. Windows SmartScreen may prompt because the binaries are not Authenticode signed; feed signing is a separate update-integrity check.
 
-## Troubleshooting
+## Support
 
-Steam/game locations are detected automatically. Use Settings to choose installed executables if detection fails. If game verification fails because access is restricted, run AionMarket with the same permissions as the game. Settings includes **Open logs** and **Create support report**; do not share private capture or key files.
+Steam/game locations are detected automatically; Settings can select executables if discovery fails. Restricted game verification may require running AionMarket with the same permissions as the game. **Open logs** and **Create support report** are in Settings; do not share private capture or key files.
 
-Windows 11 x64 is the release target. This release has local Windows validation; separate ROG and display acceptance remains with the owner.
+Windows 11 x64 is the target. Local tests do not replace acceptance on another device.

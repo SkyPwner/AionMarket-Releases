@@ -1,26 +1,26 @@
 {
   "schema": "aionmarket.release/1",
-  "version": "1.2.5.0",
+  "version": "1.2.13.0",
   "rid": "win-x64",
-  "sourceCommit": "224a883803076256626ecb1229a22bb21d0c9193",
-  "buildIdentity": "Final r2 native source snapshot at 224a883; setup receipt additionally pins pre-existing dirty Program.cs bytes. Native 1404 checks, Python 155 integration tests, Setup 106 checks, 835 app files. Exact packaged presentation and local installation verified. Current offers are read-only listings, not completed sales. Local first Setup handoff needed retry after old companion exited; cause remains unresolved.",
+  "sourceCommit": "1970be4702d5f23c39dc886ff1f2119190701c25",
+  "buildIdentity": "Reviewed native source snapshot 1970be47; Setup receipt additionally pins the unchanged pre-existing Program.cs input. Native 1620 checks; Helper backend 79 tests; exact portable presentation Helper 533, hotkey 44, browser 27, history 93, tooltip 231. Installed 836 files match; settings and sampled history retained. Owner confirmed Alt+Z. Host-specific first 83-item scan took 295.459 seconds including one automatic timeout retry; this is not a throughput guarantee.",
   "artifacts": [
     {
-      "bytes": 132206669,
-      "members": 1031,
-      "name": "AionMarket-portable-win-x64-1.2.5.0.zip",
-      "sha256": "96429d1e0f3cc51a36239a9a165f85199c44c4b1fd599ca7a0a59a990a60fcd1"
+      "bytes": 132309043,
+      "members": 1032,
+      "name": "AionMarket-portable-win-x64-1.2.13.0.zip",
+      "sha256": "e5273194a971221bcaec1952278cfb9841b4ddc6b78a0345c8216627b82734e2"
     },
     {
-      "bytes": 95167991,
-      "members": 835,
-      "name": "AionMarket-win-x64-1.2.5.0.zip",
-      "sha256": "bf67f1b4fc1394e1869723ee4f813e04a56c7e508429bc2f86e620f13fdcc036"
+      "bytes": 95268599,
+      "members": 836,
+      "name": "AionMarket-win-x64-1.2.13.0.zip",
+      "sha256": "8e3348d218d9412df0d831057b9137110b9654fb30cb5cdb04752276f8665952"
     },
     {
-      "sha256": "a5bb113d486794e912c7c3823fcc334aa42d15ca0e865119f95a6d670792efb1",
-      "bytes": 184453486,
-      "name": "AionMarket-Setup-1.2.5.0.exe"
+      "name": "AionMarket-Setup-1.2.13.0.exe",
+      "bytes": 184555888,
+      "sha256": "523cccd2db59aa476c9d1ea4ddad6e826ada6a35e9ec57c949d5a53c59ff79e6"
     }
   ],
   "scope": {
