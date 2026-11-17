@@ -2,7 +2,7 @@
 
 A compact AION 2 market companion for Windows 11 x64.
 
-Download [AionMarket 1.2.24 installer](https://github.com/SkyPwner/AionMarket-Releases/releases/download/v1.2.24.0/AionMarket-Setup-1.2.24.0.exe). Setup installs for the current Windows user.
+Download [AionMarket 1.2.26 installer](https://github.com/SkyPwner/AionMarket-Releases/releases/download/v1.2.26.0/AionMarket-Setup-1.2.26.0.exe). Setup installs for the current Windows user.
 
 - A quiet game widget shows selected item prices and their age, with controls on hover.
 - Watchlist includes search, colored rarity and equipment filters, price/profit sorting and a configurable profit threshold.

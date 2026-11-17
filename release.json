@@ -1,26 +1,26 @@
 {
   "schema": "aionmarket.release/1",
-  "version": "1.2.24.0",
+  "version": "1.2.26.0",
   "rid": "win-x64",
-  "sourceCommit": "ec3c594b0296c2ba440951be2455cca032ba0d89",
-  "buildIdentity": "Exact r2 native source plus separately pinned Setup launcher cohort. Native 2077, WPF 101, equipped-base cost, exact packaged startup and public 1.2.20 signed upgrade/rollback and tamper rejection checks passed. Existing channel trust is unchanged.",
+  "sourceCommit": "a6395c2fdcab07453dfc75c16036b65042d10234",
+  "buildIdentity": "Promoted unchanged owner-tested local126 artifacts. Native2115, exact packaged WPF129, history101, adapter153 and Setup178 checks passed. Installed126 with preserved settings/profile and live price collection; owner confirmed it works. Includes full audit fixes and long-history profit-color/sort regression correction. Existing channel trust unchanged.",
   "artifacts": [
     {
-      "bytes": 221570801,
+      "bytes": 221593786,
       "members": 1534,
-      "name": "AionMarket-portable-win-x64-1.2.24.0.zip",
-      "sha256": "8e2bbc0c8898a74c9fa8630cc6490b6683fbf89fe74ece38089f9d2128a03c19"
+      "name": "AionMarket-portable-win-x64-1.2.26.0.zip",
+      "sha256": "6f51d6be2e3eea26345c811a84ae90f35169ed2e35320b799e371ce404b96727"
     },
     {
-      "bytes": 183573908,
+      "bytes": 183596231,
       "members": 1337,
-      "name": "AionMarket-win-x64-1.2.24.0.zip",
-      "sha256": "d65592178706d87f63e28a0ba3d338c3fd42aae7868b7dc3d5939c178f7c495f"
+      "name": "AionMarket-win-x64-1.2.26.0.zip",
+      "sha256": "52a210a0c150fe24f1a9b290179fa4226e786d81c25669b9b525516d09347f8e"
     },
     {
-      "bytes": 276456304,
-      "sha256": "1764288d109bed928b03407da8d75b97112a5effc1e6a36ce40fdbf661102f5c",
-      "name": "AionMarket-Setup-1.2.24.0.exe"
+      "name": "AionMarket-Setup-1.2.26.0.exe",
+      "bytes": 276540784,
+      "sha256": "8fb9953ce9c0ee7d2ff14a0d02a2002114523c669953d318c736e5c8cede6b74"
     }
   ]
 }
