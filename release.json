@@ -1,26 +1,26 @@
 {
   "schema": "aionmarket.release/1",
-  "version": "1.2.13.0",
+  "version": "1.2.20.0",
   "rid": "win-x64",
-  "sourceCommit": "1970be4702d5f23c39dc886ff1f2119190701c25",
-  "buildIdentity": "Reviewed native source snapshot 1970be47; Setup receipt additionally pins the unchanged pre-existing Program.cs input. Native 1620 checks; Helper backend 79 tests; exact portable presentation Helper 533, hotkey 44, browser 27, history 93, tooltip 231. Installed 836 files match; settings and sampled history retained. Owner confirmed Alt+Z. Host-specific first 83-item scan took 295.459 seconds including one automatic timeout retry; this is not a throughput guarantee.",
+  "sourceCommit": "36bd506fcd0968c08fbd186079b940b80cd88ae9",
+  "buildIdentity": "UI/backend native source commit 36bd506. Setup separately pins its new launcher-cohort source hash. Exact portable presentation/startup and 1.2.13/1.2.19 update/rollback checks passed; local installation verified all 1094 application files and preserved four settings files, the stable launcher, game and Steam.",
   "artifacts": [
     {
-      "bytes": 132309043,
-      "members": 1032,
-      "name": "AionMarket-portable-win-x64-1.2.13.0.zip",
-      "sha256": "e5273194a971221bcaec1952278cfb9841b4ddc6b78a0345c8216627b82734e2"
+      "bytes": 159344821,
+      "members": 1291,
+      "name": "AionMarket-portable-win-x64-1.2.20.0.zip",
+      "sha256": "8cbbc8d7bf73d41f3f37816c43d0da147c3b7929a21160b340b4bd762d0bb895"
     },
     {
-      "bytes": 95268599,
-      "members": 836,
-      "name": "AionMarket-win-x64-1.2.13.0.zip",
-      "sha256": "8e3348d218d9412df0d831057b9137110b9654fb30cb5cdb04752276f8665952"
+      "bytes": 121383752,
+      "members": 1094,
+      "name": "AionMarket-win-x64-1.2.20.0.zip",
+      "sha256": "a500f6ab85d6a517b9d49816be9365a17e87d4fd56da5470892f437282444691"
     },
     {
-      "name": "AionMarket-Setup-1.2.13.0.exe",
-      "bytes": 184555888,
-      "sha256": "523cccd2db59aa476c9d1ea4ddad6e826ada6a35e9ec57c949d5a53c59ff79e6"
+      "name": "AionMarket-Setup-1.2.20.0.exe",
+      "sha256": "d55093532ef522bc6862f5280d0a04d66ca51ca543b487159ec838809b5a9712",
+      "bytes": 214146928
     }
   ],
   "scope": {
@@ -28,5 +28,14 @@
     "server": "Ludra",
     "faction": "asmodian"
   },
-  "updateFeed": "https://raw.githubusercontent.com/SkyPwner/AionMarket-Releases/main/update.json"
+  "updateFeed": "https://raw.githubusercontent.com/SkyPwner/AionMarket-Releases/main/update.json",
+  "verification": {
+    "installedImageFiles": 1094,
+    "settingsFilesUnchanged": 4,
+    "gameAndSteamUnchanged": true,
+    "exactPortablePresentation": true,
+    "nativePages": 7,
+    "public113UpgradeRehearsed": true,
+    "local119UpgradeRehearsed": true
+  }
 }
