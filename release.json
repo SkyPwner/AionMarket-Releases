@@ -1,41 +1,26 @@
 {
   "schema": "aionmarket.release/1",
-  "version": "1.2.20.0",
+  "version": "1.2.24.0",
   "rid": "win-x64",
-  "sourceCommit": "36bd506fcd0968c08fbd186079b940b80cd88ae9",
-  "buildIdentity": "UI/backend native source commit 36bd506. Setup separately pins its new launcher-cohort source hash. Exact portable presentation/startup and 1.2.13/1.2.19 update/rollback checks passed; local installation verified all 1094 application files and preserved four settings files, the stable launcher, game and Steam.",
+  "sourceCommit": "ec3c594b0296c2ba440951be2455cca032ba0d89",
+  "buildIdentity": "Exact r2 native source plus separately pinned Setup launcher cohort. Native 2077, WPF 101, equipped-base cost, exact packaged startup and public 1.2.20 signed upgrade/rollback and tamper rejection checks passed. Existing channel trust is unchanged.",
   "artifacts": [
     {
-      "bytes": 159344821,
-      "members": 1291,
-      "name": "AionMarket-portable-win-x64-1.2.20.0.zip",
-      "sha256": "8cbbc8d7bf73d41f3f37816c43d0da147c3b7929a21160b340b4bd762d0bb895"
+      "bytes": 221570801,
+      "members": 1534,
+      "name": "AionMarket-portable-win-x64-1.2.24.0.zip",
+      "sha256": "8e2bbc0c8898a74c9fa8630cc6490b6683fbf89fe74ece38089f9d2128a03c19"
     },
     {
-      "bytes": 121383752,
-      "members": 1094,
-      "name": "AionMarket-win-x64-1.2.20.0.zip",
-      "sha256": "a500f6ab85d6a517b9d49816be9365a17e87d4fd56da5470892f437282444691"
+      "bytes": 183573908,
+      "members": 1337,
+      "name": "AionMarket-win-x64-1.2.24.0.zip",
+      "sha256": "d65592178706d87f63e28a0ba3d338c3fd42aae7868b7dc3d5939c178f7c495f"
     },
     {
-      "name": "AionMarket-Setup-1.2.20.0.exe",
-      "sha256": "d55093532ef522bc6862f5280d0a04d66ca51ca543b487159ec838809b5a9712",
-      "bytes": 214146928
+      "bytes": 276456304,
+      "sha256": "1764288d109bed928b03407da8d75b97112a5effc1e6a36ce40fdbf661102f5c",
+      "name": "AionMarket-Setup-1.2.24.0.exe"
     }
-  ],
-  "scope": {
-    "region": "eu",
-    "server": "Ludra",
-    "faction": "asmodian"
-  },
-  "updateFeed": "https://raw.githubusercontent.com/SkyPwner/AionMarket-Releases/main/update.json",
-  "verification": {
-    "installedImageFiles": 1094,
-    "settingsFilesUnchanged": 4,
-    "gameAndSteamUnchanged": true,
-    "exactPortablePresentation": true,
-    "nativePages": 7,
-    "public113UpgradeRehearsed": true,
-    "local119UpgradeRehearsed": true
-  }
+  ]
 }
