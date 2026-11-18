@@ -1,26 +1,24 @@
 {
   "schema": "aionmarket.release/1",
-  "version": "1.2.28.0",
+  "version": "1.2.32.0",
   "rid": "win-x64",
-  "sourceCommit": "3f217c6a49f85d577a754b8cd38828857d69727f",
-  "buildIdentity": "Promoted unchanged owner-tested local128 artifacts, with Setup launcher cohort1f04ae0. Native2115, exact packaged WPF202, adapters153, history101, browser27, filter43 and Setup186 checks passed. Installed128 with one responding app; game and Steam remain running. Both equipped accessory copies, centered compact controls and Watchlist scrolling correction. Existing channel trust unchanged.",
+  "sourceCommit": "4c989b34157447ebcac79a8015d489cc4e7552b0",
+  "buildIdentity": "Promoted unchanged owner-tested local132 r2 artifacts, originally built from5d1a888 with scoped Craft changes now recorded in4c989b3. Native2165 and activation117, Python71, exact packaged WPF276, Setup186 and1537 payload files verified. Local131 to132 update preserved four settings files, installation identity, activation and running game/Steam. Production-required protocol2 activation with device proof; unchanged activation/update trust. Source snapshot and exact inventory are retained locally.",
   "artifacts": [
     {
-      "bytes": 221599877,
-      "members": 1534,
-      "name": "AionMarket-portable-win-x64-1.2.28.0.zip",
-      "sha256": "a6afe2cb1ac590c328912e35503b4ef431c599bb1b3107aaebf7ce5775e6ba0a"
+      "bytes": 221676484,
+      "name": "AionMarket-portable-win-x64-1.2.32.0.zip",
+      "sha256": "434603969868e284c6d38bb981314f6903ea7e9db2f28f491dde4e30cdc3b4e6"
     },
     {
-      "bytes": 183602313,
-      "members": 1337,
-      "name": "AionMarket-win-x64-1.2.28.0.zip",
-      "sha256": "f20edfdf8c9855a3acdd35e5e0aceb57e1a2453fef8e02fcd7bd95673f409f93"
+      "bytes": 183678458,
+      "name": "AionMarket-win-x64-1.2.32.0.zip",
+      "sha256": "e1a26c9533228ff5aa3cbc05a01155f8090c2af8152a91f9ad9fa27e56738ea3"
     },
     {
-      "bytes": 276593008,
-      "sha256": "4c263e4bd8ce9e5f674e1462a444e23954285995949e78d48026795337a53a1b",
-      "name": "AionMarket-Setup-1.2.28.0.exe"
+      "name": "AionMarket-Setup-1.2.32.0.exe",
+      "sha256": "5394255cacaaf07cfda068b0bd8780b98424697e484f0fdd874c0bc5b3dc66c6",
+      "bytes": 276753264
     }
   ]
 }
