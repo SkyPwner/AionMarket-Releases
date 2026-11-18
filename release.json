@@ -1,26 +1,26 @@
 {
   "schema": "aionmarket.release/1",
-  "version": "1.2.26.0",
+  "version": "1.2.28.0",
   "rid": "win-x64",
-  "sourceCommit": "a6395c2fdcab07453dfc75c16036b65042d10234",
-  "buildIdentity": "Promoted unchanged owner-tested local126 artifacts. Native2115, exact packaged WPF129, history101, adapter153 and Setup178 checks passed. Installed126 with preserved settings/profile and live price collection; owner confirmed it works. Includes full audit fixes and long-history profit-color/sort regression correction. Existing channel trust unchanged.",
+  "sourceCommit": "3f217c6a49f85d577a754b8cd38828857d69727f",
+  "buildIdentity": "Promoted unchanged owner-tested local128 artifacts, with Setup launcher cohort1f04ae0. Native2115, exact packaged WPF202, adapters153, history101, browser27, filter43 and Setup186 checks passed. Installed128 with one responding app; game and Steam remain running. Both equipped accessory copies, centered compact controls and Watchlist scrolling correction. Existing channel trust unchanged.",
   "artifacts": [
     {
-      "bytes": 221593786,
+      "bytes": 221599877,
       "members": 1534,
-      "name": "AionMarket-portable-win-x64-1.2.26.0.zip",
-      "sha256": "6f51d6be2e3eea26345c811a84ae90f35169ed2e35320b799e371ce404b96727"
+      "name": "AionMarket-portable-win-x64-1.2.28.0.zip",
+      "sha256": "a6afe2cb1ac590c328912e35503b4ef431c599bb1b3107aaebf7ce5775e6ba0a"
     },
     {
-      "bytes": 183596231,
+      "bytes": 183602313,
       "members": 1337,
-      "name": "AionMarket-win-x64-1.2.26.0.zip",
-      "sha256": "52a210a0c150fe24f1a9b290179fa4226e786d81c25669b9b525516d09347f8e"
+      "name": "AionMarket-win-x64-1.2.28.0.zip",
+      "sha256": "f20edfdf8c9855a3acdd35e5e0aceb57e1a2453fef8e02fcd7bd95673f409f93"
     },
     {
-      "name": "AionMarket-Setup-1.2.26.0.exe",
-      "bytes": 276540784,
-      "sha256": "8fb9953ce9c0ee7d2ff14a0d02a2002114523c669953d318c736e5c8cede6b74"
+      "bytes": 276593008,
+      "sha256": "4c263e4bd8ce9e5f674e1462a444e23954285995949e78d48026795337a53a1b",
+      "name": "AionMarket-Setup-1.2.28.0.exe"
     }
   ]
 }
